@@ -1,0 +1,58 @@
+h1{
+  width: 674px;
+  float: right;
+  margin-top: 50;
+}
+img{
+  height: 100vh;
+}
+p{
+  position: absolute;
+  top: 150;
+  float: right;
+  width: 926px;
+  right: 0px;
+}
+a button{
+    position: absolute;
+    bottom: 35px;
+    right: 74px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    position: absolute;
+    transition: 0.3s !important;
+}
+a button:hover{
+    background-color: white;
+}
+
+@media screen and (max-width: 1400px) {
+
+    img{
+        height: auto;
+        width: 346px;
+        bottom: 0px;
+        position: absolute;
+        left: 0;
+        border-radius: 5px;
+
+    }
+    p{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    p{
+        width: 300px;
+    }
+    h1{
+        width: 50%;
+      }
+      img{
+          width: 250px;
+          bottom: 155px;
+          border-radius: 5px;
+      }
+}
